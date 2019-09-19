@@ -1,5 +1,5 @@
 {
-    "name": "dircm/googlmapper",
+    "name": "cornford/googlmapper",
     "description": "An easy way to integrate Google Maps with Laravel.",
     "keywords": ["laravel", "google", "maps", "mapping", "streetview", "map"],
     "license": "MIT",
@@ -10,13 +10,12 @@
         }
     ],
     "require": {
-        "php": ">=5.4.0",
         "illuminate/view": "6.*",
         "illuminate/support": "6.*"
     },
     "require-dev": {
-        "phpspec/phpspec": "^2.5|^3.2",
-        "mockery/mockery": "^1.0"
+        "phpspec/phpspec": "2.0.*",
+        "mockery/mockery": "0.9.*"
     },
     "autoload": {
         "psr-0": {
